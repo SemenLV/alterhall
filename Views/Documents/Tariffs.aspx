@@ -19,6 +19,14 @@
 					<div class="panel panel-default">
 						<div class="panel-heading">
 							<h4 class="panel-title">
+								<a href="https://www.oree.com.ua/index.php/pricectr" target="_blank" title="«Погодинні середньозважені ціни купівлі-продажу електроенергії»">
+									«Погодинні середньозважені ціни купівлі-продажу електроенергії»</a>
+							</h4>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
 								<a data-toggle="collapse" data-parent="#accordion" href="#collapse2021">
 									2021</a>
 							</h4>
