@@ -6,3 +6,8 @@ D:\Projects\Originals\AlterHall\AlterHall\bin\AlterHall.dll
 D:\Projects\Originals\AlterHall\AlterHall\bin\AlterHall.pdb
 D:\Projects\Originals\AlterHall\AlterHall\obj\Release\AlterHall.dll
 D:\Projects\Originals\AlterHall\AlterHall\obj\Release\AlterHall.pdb
+D:\Projects\websites\alterhall\bin\AlterHall.dll
+D:\Projects\websites\alterhall\bin\AlterHall.pdb
+D:\Projects\websites\alterhall\obj\Release\AlterHall.csprojResolveAssemblyReference.cache
+D:\Projects\websites\alterhall\obj\Release\AlterHall.dll
+D:\Projects\websites\alterhall\obj\Release\AlterHall.pdb

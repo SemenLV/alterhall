@@ -436,15 +436,16 @@ ol > li > ul > li{line-height:2; list-style-type:square; margin-bottom:20px;}
 #documents a{display:inline-block; margin-top:-10px;}
 
 #howToStart{margin-top:50px;}
-#howToStart .box{min-height:407px; padding:67px 40px 61px; width:18.4%; margin-left:2%; float:left; border:1px solid #e5e7e9; text-align:center;}
+#howToStart .box{min-height:407px; padding:67px 10px 61px; width:18.4%; margin-left:2%; float:left; border:1px solid #e5e7e9; text-align:center;}
 #howToStart .box:first-child {margin-left:0;}
 #howToStart .box-icon{margin:0px auto;}
-#howToStart .box .box-header a{font-size:22px; font-weight:500; text-align:center;}
-#howToStart .box .box-body{color:#888;  font-size:15px;  line-height:1.5;}
+#howToStart .box .box-header a{display:block; min-height: 70px; font-size:16px; font-weight:500; text-align:center;}
+#howToStart .box .box-body{color:#888;  font-size:15px;  line-height:1.5; margin-top: 15px; min-height: 500px;}
  @media (max-width: 767px) 
  {
  	 #howToStart .box{padding:67px 40px 61px; width:100%; margin-left:0%; margin-bottom:20px; min-height:1px; text-align:center;}
- }
+   #howToStart .box .box-body{min-height: 300px;}
+  }
 
  @media (min-width: 768px) and (max-width: 1023px) 
 {
@@ -457,7 +458,7 @@ ol > li > ul > li{line-height:2; list-style-type:square; margin-bottom:20px;}
 #howToStartList > li >b{text-transform:uppercase;}
 #howToStartList > li p,
 #howToStartList > li ul{color:#333; font-weight:500; text-transform:none;}
-#normDocModal .modal-body{}
+#howToStartList .howToStartListInner li{list-style: circle outside; padding:0px; margin:20px 0px 20px 30px;}
 
 #mainDocs ul{padding:0px; margin:30px 30px;}
 #mainDocs ul li{list-style: square outside; padding:0px; margin:20px 0px;}
@@ -630,11 +631,18 @@ ol > li > ul > li{line-height:2; list-style-type:square; margin-bottom:20px;}
 .whyUs-listTitile {font-weight:700; color:#9a0000; margin-bottom:10px;}
 .whyUs-listBody{margin-bottom:30px; line-height:1.5; color:#666;}
 
-.adv-box{border:1px solid #e5e7e9; color:#333; font-size:16px; line-height:1.8; margin:0px auto 30px auto; min-height:840px; padding:20px; text-align:center;}
+.adv-box{border:1px solid #e5e7e9; color:#333; font-size:16px; line-height:1.8; margin:0px auto 30px auto; height:840px; padding:20px; text-align:center;}
 .adv-box img{margin:20px auto 50px auto;}
 .adv-box h3{font-size:24px; min-height:50px; text-align:center;}
 .adv-box ul{display:block; list-style:square inside; margin:0 0 0 10px; padding:0; text-align:left;}
 .adv-box ul li{display:list-item; list-style: square inside; margin:0; padding:0;}
+
+.adv-box-2{border:1px solid #e5e7e9; color:#333; font-size:16px;line-height:1.8;margin:0px auto 30px auto; min-height:840px; padding:20px; text-align:center;}
+.adv-box-2 img{margin:20px auto 50px auto;}
+.adv-box-2 h3{font-size:24px; min-height:50px; text-align:center;}
+.adv-box-2 ul{display:block; list-style:square inside; margin:0 0 0 10px; padding:0; text-align:left;}
+.adv-box-2 ul li{display:list-item; list-style: square inside; margin:0; padding:0;}
+
 
 .contactForm{background-color:#fff; padding:20px; border:1px #ccc solid;
              border-radius: 4px; margin-bottom:30px;
